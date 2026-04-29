@@ -61,7 +61,7 @@ export default {
       urls: [],
       loading: false,
       error: '',
-     backendUrl: 'http://localhost:5000'
+     backendUrl: 'https://url-shortener-backend-07pt.onrender.com'
     }
   },
   mounted() {
