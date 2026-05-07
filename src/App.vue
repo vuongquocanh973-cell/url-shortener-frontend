@@ -223,10 +223,15 @@ body {
   color: #e2eaf8;
   min-height: 100vh;
   padding: 40px 20px;
+  display: flex;              /* add this */
+  justify-content: center;   /* add this */
 }
 
-.container { max-width: 800px; margin: 0 auto; }
-
+.container {
+  max-width: 800px;
+  width: 100%;               /* add this */
+  margin: 0 auto;
+}
 /* Brand */
 h1 {
   text-align: center;
